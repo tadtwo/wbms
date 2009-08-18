@@ -1,0 +1,12 @@
+{
+	"User":{
+		"userid"   : "003" , "scr_name" : "tanaka" , "nickname" : "田中三郎" , "passwd" : "myPass" ,
+		"Bookmark" : [
+			{ "uri" : "http://www.aiseikai.or.jp/" , "epoch" : "1252989438" , 
+				"comment" : "[ネタ]これはなつかしい。90年代の負の遺産。" } ,
+			{ "uri" : "about:blank" , "epoch" : "1252998438" ,
+				"comment" : "[ネタ]パソコン蛾物故割れた" }
+		]
+	}
+}
+

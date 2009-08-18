@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>{{site.title}} -  WbMS</title>
+<!--	<link rel="stylesheet" href="./style/add_ssc.css">-->
+</head>
+<body>
+<h1>{{site.Status.title}}</h1>
+{% if site.Contents.quote %}
+<blockquote cite="{{site.Status.uri escape}}"><p>{{site.Contents.quote escape}}</p></blockquote>
+{% endif %}
+<ul><a href="{{site.Status.uri escape}}">{{site.Status.uri escape}}</a></ul>
+
+<dl>{% for item in user %}
+<dt class="username" id="{{item.scr|upper}}">{{item.nam}}(<a href="{{Settings.user}}?name={{item.scr}}">{{item.scr}}</a>)</dt>
+	<dd class="comment">{{item.cmt|escape}} <span class="time">{{item.tim}}</span></dd>{% endfor %}
+</dl>
+</body>
+</html>
+

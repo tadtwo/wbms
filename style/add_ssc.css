@@ -1,0 +1,6 @@
+@import url("ssc.css") screen,tv;
+@media screen,tv{
+	body{
+		width:480px;
+	}
+}

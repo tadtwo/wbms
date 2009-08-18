@@ -1,0 +1,15 @@
+{
+	"Status" : {
+		"uri"   : "about:blank" ,
+		"title" : "about:blank" ,
+		"epoch" : "1252988684"
+	} ,
+	"Users" : [
+		{ "user_id" : "001" , "epoch" : "1252389438" },
+		{ "user_id" : "003" , "epoch" : "1252998438" }
+	] ,
+	"Contents" : {
+		"quote" : "" , "last_update" : "1252998438" 
+	}
+}
+

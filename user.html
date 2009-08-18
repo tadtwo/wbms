@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>{{user.nickname}} -  WbMS</title>
+<!--	<link rel="stylesheet" href="./style/add_ssc.css">-->
+</head>
+<body>
+<h1>{{nickname}}のブックマーク</h1>
+
+{% if Bookmark %}<dl>{% for item in Bookmark %}
+<dt class="username" id="T{{item.epoch|upper}}"><a href="./site.php?uri={{item.uri}}">{{item.title}}______</a></dt>
+	<dd class="comment">{{item.comment}} <span class="time">{{item.time}}</span></dd>{% endfor %}
+</dl>
+{% else %}
+<p>{{nickname}}にはまだブックマークがありません。</p>
+{% endif %}
+</body>
+</html>
+

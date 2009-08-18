@@ -1,0 +1,15 @@
+{
+	"User":{
+		"userid"   : "001" , "scr_name" : "y_taro" , "nickname" : "山田太郎" , "passwd" : "testtest" ,
+		"Bookmark" : [
+			{ "uri" : "http://google.co.jp/" , "epoch" : "1251989438" , 
+				"comment" : "[WWW]これはナイスな検索サイトですね!" } ,
+			{ "uri" : "http://www.aiseikai.or.jp/" , "epoch" : "1252989438" , 
+				"comment" : "[これはひどい]&quot;Netscape とは相性が悪く Version によっては全く受け付けないモノもある様です。&quot;" },
+			{ "uri" : "about:blank" , "epoch" : "1252389438" ,
+				"comment" : "まあ、ねたですね。" } 
+
+		]
+	}
+}
+

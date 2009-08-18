@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>add bookmark!</title>
+	<link rel="stylesheet" href="./style/add_ssc.css">
+	<script src="./script/addWb.js"></script>
+</head>
+<body>
+<h1>add bookmark! {%if seturi %}- {{seturi}} {% endif %}- WbMS</h1>
+
+<form action="./add.php" method="POST">
+<fieldset>
+<legend>bookmark</legend>
+<dl>
+	<dt><label for="INPUT_URI">URI</label></dt>
+	<dd><input id="INPUT_URI" type="text" maxlength="256" size="40"{% if seturi %} value="{{seturi}}"{% endif %}></dd>
+	<dt><label for="INPUT_COMMENT">comment</label></dt>
+	<dd><input id="INPUT_COMMENT" type="text" maxlength="140" size="40"></dd>
+	<dd><div id="COMMENT_REMIND"></div></dd>
+</dl>
+<button>submit</button>
+</fieldset>
+</form>
+</body>
+</html>
+

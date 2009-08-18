@@ -1,0 +1,16 @@
+{
+	"Status" : {
+		"uri"   : "http://www.aiseikai.or.jp/" ,
+		"title" : "愛生会病院" ,
+		"epoch" : "1252988684"
+	} ,
+	"Users" : [
+		{ "user_id" : "001" , "epoch" : "1251989438" },
+		{ "user_id" : "003" , "epoch" : "1252989438" }
+	] ,
+	"Contents" : {
+		"quote" : "(none)"  ,
+		"last_update" : "1252998438" 
+	}
+}
+

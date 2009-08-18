@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+	color:#FFF;
+	background-color:#FFF;
+	font-weight:normal;
+	font-style:normal;
+	font-size:medium;
+}
+
+p,div,form,fieldset,legend,label,input,button,dl,dd,dt,ul,ol,li,abbr,acronym{
+	color:inherit;
+	background:inherit;
+	font:inherit;
+}
+
+ html{
+	background-color:#CCC;
+	padding:10px;
+}body{
+	background-color:#000;
+	color:#FFF;
+	height:200%;
+	padding:1em 1.2em 2em;
+}
+
+h1{
+	background-color:#000;
+	font-size:large;
+	text-align:right;
+	font-style:italic;
+	width:100%;
+}
+
+fieldset{
+	padding:6px;
+}legend{
+	text-align:right;
+	display:none;
+}input[size]{
+	width:100%;
+}
+ fieldset dl dt{
+	width:40%;
+	clear:right;
+}fieldset dl dd{
+	width:55%;
+	float:right;
+}fieldset dl{
+	margin:0 0 1em 0;
+}

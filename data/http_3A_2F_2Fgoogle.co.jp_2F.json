@@ -1,0 +1,14 @@
+{
+	"Status" : {
+		"uri"   : "http://google.co.jp/" ,
+		"title" : "Google" ,
+		"epoch" : "1252988684"
+	} ,
+	"Users" : [
+		{ "user_id" : "001" , "epoch" : "1251989438" }
+	] ,
+	"Contents" : {
+		"quote" : "ウェブ 画像 動画 地図 ニュース グループ Gmail その他 ▼" , "last_update" : "1252998438" 
+	}
+}
+
